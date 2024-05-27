@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Studio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+   
+    background-size: cover;
+    background-position: center;
+    background-color: #a78b61;
+
+}
+
+header {
+    background-color: #141414;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #c9965d;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.instructors ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#pictures ul{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#pictures li{
+    margin-bottom: 20px;
+
+}
+
+
+.membership ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.membership li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color:#000000 ;
+    color: #fff;
+
+
+}
+   
+    img{
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    #foot01{
+        margin-left: 100px;
+
+    }
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  #top{
+    color: aliceblue;
+    font-size: 23px;
+  }
+  #table{
+  
+  }
+  #classes{
+ background-color: #474646;
+ 
+  }
+  img{
+    margin-left:50px;
+    image-resolution: 2040px;
+    width: 90%;
+    height: 0%;
+  }
+  #pictures{
+    background-color: transparent;
+  }
+  .column1{
+    width: 100%;
+  }
+  /* div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+} */
+/* .blackbackgroundscroll {
+   background:transparent;
+   padding: 8px 8px 8px 8px;
+   margin: 12px 0px 5px 0px;
+   box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0); */
+   /* border: 1px solid #dadce0; */
+   /* border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+   border-bottom-right-radius: 2px;
+   border-bottom-left-radius: 2px;
+   overflow: auto;
+   white-space: nowrap;
+   -webkit-overflow-scrolling: touch;
+ } */
+ .slider{
+    width: 700px;
+    height: 500px;
+    /* background: url(backdrop.jpg); */
+    margin: 50px auto;
+    animation: slider 10s infinite;
+
+ }
+ @keyframes slider{
+    25% {
+        background: url(4.jpg);
+        background-size:contain
+        }
+        50% {
+        background: url(backdrop3.jpg);
+        }
+        75% {
+        background: url(backdrop2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        100% {
+        background: url(backdrop.jpg);
+        background-size: cover;
+        }
+ }
+  </style>
+    
+</head>
+<body>
+    <header>
+        
+        <img src="https://images.squarespace-cdn.com/content/v1/57d74f6f46c3c4fc6bded3b3/1543338248786-WCFCRK9UMVWJBSQTAMUR/YOE.png?format=500w"> <br>
+     
+        <nav>
+            <ul id="top">
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#membership">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div >
+            <div class="slider">
+             <a href="benifitsof yoga.html"></a>   
+
+            </div>
+            <!-- <div class="blackbackgroundscroll">
+                <a href="benifitsof yoga.html" target="_blank" rel="noopener noreferrer">
+                <img src="backdrop.jpg" alt="" width="210" height="119" class="alignleft size-full wp-image-16930" />/
+            </a>
+              </div> -->
+            <!-- <div class="scroll-container">
+                <img src="backdrop.jpg" alt="Cinque Terre">
+                <img src="01.jpg" alt="Forest">
+                <img src="img_lights.jpg" alt="Northern Lights">
+                <img src="img_mountains.jpg" alt="Mountains">
+              </div> -->
+        <section id="classes">
+            <div id="table">
+            <h2>Class Schedules</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>9:00 AM</td>
+                    <td>Hatha Yoga</td>
+                    <td>Jane Doe</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>6:00 PM</td>
+                    <td>Vinyasa Flow</td>
+                    <td>John Smith</td>
+                </tr>
+                <tr>
+                    <td>wednesday</td>
+                    <td>9:00 AM</td>
+                    <td>Jnana Yoga</td>
+                    <td>Jane Doe</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>6:00 PM</td>
+                    <td>Karma Yoga</td>
+                    <td>John Smith</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9:00 AM</td>
+                    <td>Bhakti Yoga</td>
+                    <td>Jane Doe</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>6:00 PM</td>
+                    <td>Raja Yoga</td>
+                    <td>John Smith</td>
+                </tr>
+                <!-- Add  classes here -->
+            </table><br>
+        </section>
+    
+            <section id="pictures">
+            <div class="row">
+                <div class="column1">
+                  <img src="01.jpg" alt="yoga"  >
+                </div>
+                <div class="column">
+                  <img src="2.jpg" alt="yoga" >
+                </div>
+                <div class="column">
+                  <img src="3.jpg" alt="yoga" >
+                </div>
+                <div class="column">
+                    <img src="1.jpg" alt="yoga" >
+                  </div>
+              </div>
+            </div>
+        </div>           
+            </section>
+        </section>
+        <section id="instructors">
+            <h2>Instructors</h2>
+            <ul>
+                <li>
+                    <img src="doe.jpg" alt="Jane Doe">
+                    <h3>Jane Doe</h3>
+                    <p>Experienced yoga instructor with 5 years of teaching experience.</p>
+                </li>
+                <li>
+                    <img src="instructor.jpg" alt="John Smith">
+                    <h3>John Smith</h3>
+                    <p>Certified yoga instructor with a focus on Vinyasa Flow.</p>
+                </li>
+                <!-- Add more instructors here -->
+            </ul>
+        </section>
+        <section id="membership">
+            <h2>Membership Options</h2>
+            <ul>
+                <li>
+                    <h3>Monthly Membership</h3>
+                    <p>₹5000/month</p>
+                    <p>Unlimited classes, discounts on workshops and events.</p>
+                </li>
+                <li>
+                    <h3>Drop-in Classes</h3>
+                    <p>₹200/class</p>
+                    <p>Pay per class, no commitment required.</p>
+                </li>
+                <!-- Add more membership options here -->
+            </ul>
+        </section>
+    </main>
+    <!-- <footer>
+        <p>&copy; 2024 Yoga Studio Website</p>
+    </footer> -->
+    <footer>
+        <div class="footer-content">
+          <div class="contact-info">
+            <h3 id="foot01" >Contact Us  </h3>
+            <p>Phone: 9059132979</p>
+            <p>Email: yogoffeast@gmail.com</p>
+            <p>Address: Rajahmundry,Andhra pradesh</p>
+          </div>
+          <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/yogastudio"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/yogastudio"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/yogastudio"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="newsletter">
+            <h3>Sign Up for Our Newsletter</h3>
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="links">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Accessibility Statement</a></li>
+            </ul>
+          </div>
+          
+        </body>
+</html>
